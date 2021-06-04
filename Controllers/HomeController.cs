@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Vidly.Models;
 
 namespace Vidly.Controllers
 {
@@ -14,31 +13,17 @@ namespace Vidly.Controllers
             return View();
         }
 
-        [Route("customers")]
-        public ActionResult customers()
+        public ActionResult About()
         {
-            var movie = new Movie() { Name = "Shrek!" };
+            ViewBag.Message = "Your application description page.";
 
-            return View(movie);
+            return View();
         }
 
-        [Route("Movies")]
-        public ActionResult Movies()
+        public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
-            return View();
-        }
-
-        [Route("Register")]
-        public ActionResult Register()
-        {
-            return View();
-        }
-
-        [Route("Login")]
-        public ActionResult Login()
-        {
             return View();
         }
     }
