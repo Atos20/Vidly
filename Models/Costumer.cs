@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -9,6 +10,8 @@ namespace Vidly.Models
     public class Customer
     {
         public int Id { get; set; }
+        [Required]//data notaiton or attribute,, withi this attribute the property will no longer be nullable
+        [StringLength(255)]// Just defining the length of the string and every time there are changes  in the domain model
         public string Name { get; set; }
 
         public bool IsSubscribedToNewsletter { get; set; }
