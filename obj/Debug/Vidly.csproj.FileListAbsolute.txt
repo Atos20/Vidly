@@ -83,3 +83,5 @@ C:\Users\Orlando\source\learning\C#\Vidly\bin\EntityFramework.xml
 C:\Users\Orlando\source\learning\C#\Vidly\bin\EntityFramework.SqlServer.xml
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
