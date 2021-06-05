@@ -94,3 +94,6 @@ C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.SetNameOfMe
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.RemoveCostumerColumn.resources
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypeNamesAgain.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateColumnToCustomer.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.RemoveBirthDatecolumn.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddCorrectCustomerColumnForBirthdate.resources
