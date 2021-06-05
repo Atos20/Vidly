@@ -85,3 +85,6 @@ C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.InitialMode
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes1.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotaionsToCustomerName.resources
