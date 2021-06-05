@@ -157,6 +157,30 @@
     <Compile Include="Migrations\202106051801598_ApplyAnnotaionsToCustomerName.designer.cs">
       <DependentUpon>202106051801598_ApplyAnnotaionsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106051901443_AddMermbershipTypeName.cs" />
+    <Compile Include="Migrations\202106051901443_AddMermbershipTypeName.designer.cs">
+      <DependentUpon>202106051901443_AddMermbershipTypeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106051904444_UpdateMembershipType.cs" />
+    <Compile Include="Migrations\202106051904444_UpdateMembershipType.designer.cs">
+      <DependentUpon>202106051904444_UpdateMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106051912483_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\202106051912483_SetNameOfMembershipTypes.designer.cs">
+      <DependentUpon>202106051912483_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106051953112_RemoveCostumerColumn.cs" />
+    <Compile Include="Migrations\202106051953112_RemoveCostumerColumn.designer.cs">
+      <DependentUpon>202106051953112_RemoveCostumerColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106052007116_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\202106052007116_AddNameToMembershipType.designer.cs">
+      <DependentUpon>202106052007116_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106052010002_PopulateMembershipTypeNamesAgain.cs" />
+    <Compile Include="Migrations\202106052010002_PopulateMembershipTypeNamesAgain.designer.cs">
+      <DependentUpon>202106052010002_PopulateMembershipTypeNamesAgain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\MyDbContext.cs" />
@@ -243,6 +267,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106051801598_ApplyAnnotaionsToCustomerName.resx">
       <DependentUpon>202106051801598_ApplyAnnotaionsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106051901443_AddMermbershipTypeName.resx">
+      <DependentUpon>202106051901443_AddMermbershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106051904444_UpdateMembershipType.resx">
+      <DependentUpon>202106051904444_UpdateMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106051912483_SetNameOfMembershipTypes.resx">
+      <DependentUpon>202106051912483_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106051953112_RemoveCostumerColumn.resx">
+      <DependentUpon>202106051953112_RemoveCostumerColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106052007116_AddNameToMembershipType.resx">
+      <DependentUpon>202106052007116_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106052010002_PopulateMembershipTypeNamesAgain.resx">
+      <DependentUpon>202106052010002_PopulateMembershipTypeNamesAgain.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

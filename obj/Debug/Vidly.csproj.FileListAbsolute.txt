@@ -88,3 +88,9 @@ C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddMembersh
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes1.resources
 C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotaionsToCustomerName.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddMermbershipTypeName.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipType.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.SetNameOfMembershipTypes.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.RemoveCostumerColumn.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+C:\Users\Orlando\source\learning\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypeNamesAgain.resources
