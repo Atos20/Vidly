@@ -1,0 +1,5 @@
+dist
+.DS_Store
+todo.md
+node-modules
+App_Data
