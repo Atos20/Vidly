@@ -3,3 +3,6 @@ dist
 todo.md
 node-modules
 App_Data
+bin
+obj
+config
