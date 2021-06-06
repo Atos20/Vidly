@@ -1,0 +1,31 @@
+﻿@model Vidly.Models.Customer
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>New</h2>
+
+@*The parameters are the action and the controller*@
+@**This Html.BeginForm is just the opening tag for the Form element => <form>, how do we render the closing tag?*@
+@*This method returns a disposable object, if you wrap this call a using block, at the the html.Begin form will be disposed and at the it will render the closing tag
+    - It is possible to use raw HTML to aswell but you will not get the data validation from the model
+    - To get the data validation we use this particular syntax
+*@
+@using (Html.BeginForm("Create", "Customers"))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Birthdate)
+        @Html.TextBoxFor(m => m.Birthdate, new { @class = "form-control" })
+    </div>
+    <div class="check-box">
+        <label>
+            @Html.CheckBoxFor(m => m.IsSubscribedToNewsletter) Subscribed to Newsletter?
+        </label>
+    </div>
+
+}
